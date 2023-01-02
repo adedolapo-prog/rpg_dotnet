@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace rpg_dotnet.Models
+namespace rpg_dotnet.Dtos.Character
 {
-    public class Character
+    public class AddCharacterDto
     {
-        public int Id { get; set; }
         public string Name { get; set; } = "Frodo";
         public int Hitpoint { get; set; } = 100;
         public int Strength { get; set; }= 10;
